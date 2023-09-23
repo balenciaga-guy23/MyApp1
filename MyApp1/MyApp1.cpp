@@ -15,6 +15,10 @@ int main()
 
     std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl;
 
+    std::cout << "Press any key to continue...";
+    char a;
+    std::cin >> a;
+
     return 0;
 }
 
